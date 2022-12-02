@@ -78,7 +78,7 @@ export default function LoginScreen() {
         </div>
       </form>
     </Layout>
-  )
+  );
 }
 
 const submitHandler = async ({ email, password }) => {
