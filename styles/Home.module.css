@@ -29,7 +29,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #f43f6d;
   text-decoration: none;
 }
 
@@ -71,13 +71,14 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
+  color: #e46879;
 }
 
 .card {
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
-  color: inherit;
+  color: pink;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
@@ -88,8 +89,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #f30041;
+  border-color: #e46879;
 }
 
 .card h2 {
@@ -104,6 +105,7 @@
 }
 
 .logo {
+  color: pink;
   height: 1em;
   margin-left: 0.5rem;
 }
@@ -126,4 +128,17 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+.homeTitle {
+  padding: 0 2rem;
+  color: rgb(243, 118, 139);
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
 }

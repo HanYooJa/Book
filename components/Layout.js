@@ -28,13 +28,13 @@ export default function Layout({ title, children }) {
       <div className="flex min-h-screen flex-col justify-between">
         <header>
           <nav className="flex h-12 items-center px-4 justify-between shadow-md bg-slate-200">
-            <Link href="/" className="text-lg font-bold">
-              NextShop
+            <Link href="/" className="text-lg font-bold ">
+              Book-site
             </Link>
 
             <div>
-              <Link href="/cart" className="p-2">
-                Cart
+              <Link href="/review" className="p-2">
+                리뷰
               </Link>
               {status === 'loading' ? (
                 'Loading'
@@ -72,7 +72,7 @@ export default function Layout({ title, children }) {
                 </Menu>
               ) : (
                 <Link href="/login" className="p-2">
-                  Login
+                  로그인
                 </Link>
               )}
             </div>
