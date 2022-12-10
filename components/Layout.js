@@ -32,6 +32,10 @@ export default function Layout({ title, children }) {
               Book-site
             </Link>
 
+            <Link href="/myapp" className="p-2">
+              개인 포트폴리오
+            </Link>
+
             <div>
               <Link href="/review" className="p-2">
                 리뷰
